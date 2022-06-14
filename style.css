@@ -54,3 +54,29 @@ h1 {
     border-width: 5px;
     
 }
+
+/* Frog! */
+
+main {
+    width: 80%;
+    background-color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.info p{
+    display: inline-block;
+}
+
+.froginfo {
+    text-align: left;
+    width: 75%;
+}
+
+.number {
+    text-align: right;
+    width: 25%;
+}
