@@ -1,0 +1,56 @@
+a:link {
+    color: lightseagreen;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: greenyellow;
+}
+body {
+    text-align: center;
+    background-color: lightgreen;
+    font-family:sans-serif;
+    color: green;
+   
+}
+
+nav {
+    text-align: justify;
+    
+    
+}
+h1 {
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    background-color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-style: solid;
+    border-color: green;
+    color: green;
+    
+}
+
+.checkbox {
+    width: 50%;
+    float:left;
+    background-color: greenyellow;
+    border-style: solid;
+    border-width: 5px;
+    
+}
+
+.image {
+    float:right;
+    width: 47%;
+    
+    background-color: greenyellow;
+    border-style: solid;
+    border-width: 5px;
+    
+}
