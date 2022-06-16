@@ -23,7 +23,8 @@ header {
 }
 
 nav {
-    text-align: justify;
+    text-align: center;
+    
     
     
 }
@@ -111,3 +112,4 @@ fieldset {
     border-width: 2px;
     margin: 10px;
 }
+
