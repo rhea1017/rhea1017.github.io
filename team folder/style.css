@@ -1,5 +1,51 @@
 body {
-    background-color: cornflowerblue;
+    background-image:url();
     font-family: Verdana;
-    color: rgb(9, 14, 22);
+    color: rgb(43, 69, 110);
+    
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(189, 79, 67);
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: cornflowerblue;
+    padding-top: 2.5%;
+}
+
+nav {
+    display: block;
+}
+
+/* home page */
+
+.all-about {
+    
+    background-color: rgb(175, 198, 240);
+    border-top:5px dotted coral;
+    border-bottom: 5px dotted coral;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 1% 10%;
+}
+
+.home-page {
+    border: 2px solid rgb(189, 79, 67);
+
+}
+
+fieldset {
+    background-color: cornflowerblue;
+}
+
+label {
+    display: block;
+    padding-bottom: 2px;
+    margin: 1em auto;
+}
+
+h2 {
+    text-align:center;
 }
