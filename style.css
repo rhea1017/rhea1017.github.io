@@ -28,6 +28,10 @@ nav {
     
 }
 
+li {
+    display: block;
+}
+
 hr {
     height: 2px;
     background-color: green;
@@ -93,4 +97,17 @@ main {
 
 .frogtitle {
     margin-top: 20px;
+}
+
+
+
+label {
+    display: block;
+}
+
+
+fieldset {
+    border-color: green;
+    border-width: 2px;
+    margin: 10px;
 }
