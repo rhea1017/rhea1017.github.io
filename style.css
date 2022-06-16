@@ -24,7 +24,7 @@ header {
 
 nav {
     text-align: center;
-    
+
     
     
 }
@@ -108,8 +108,22 @@ label {
 
 
 fieldset {
-    border-color: green;
-    border-width: 2px;
+    border: 0;
+    padding-bottom:5px;
+
     margin: 10px;
 }
 
+fieldset:not(last-of-type) {
+    border-bottom: 2px dotted green;
+}
+
+.finish {
+    border-bottom: 2px dotted green;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.select {
+    padding-bottom: 2px;
+}

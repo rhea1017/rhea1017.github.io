@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog</title>
     <link href="style.css" rel="stylesheet">
+
+    <script>
+
+            
+            function submitDog() {
+                
+            }
+            
+    </script>
 </head>
 <body>
     <nav>
@@ -17,14 +26,15 @@
     </nav>
 
     <h1>Your Dog!</h1>
+    <form>
     <fieldset>
     <label>Enter Your Dog's Name: <input type="text" required></label>
 </fieldset>
     <fieldset>
-        <label>Select any</label>
-        <label><input type="radio" name="dogType">My dog is cute</label>
-        <label><input type="radio" name="dogType">My dog is stinky</label>
-        <label><input type="radio" name="dogType">My dog is scary</label>
+        <label class="select">Select One:</label>
+        <label><input type="radio" name="dog-type">My dog is cute</label>
+        <label><input type="radio" name="dog-type">My dog is stinky</label>
+        <label><input type="radio" name="dog-type">My dog is scary</label>
     </fieldset>
     <fieldset>
         <label>What size is your dog?</label><select>
@@ -39,8 +49,9 @@
         </label>
         </fieldset>
         <fieldset>
-        <label>Describe your dog   <textarea rows="1" cols="40" placeholder="my dog has short brown fur..."></textarea></label>
+        <label>Describe Your Dog:   <textarea rows="1" cols="40" placeholder="my dog has short brown fur..."></textarea></label>
     </fieldset>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit!" onclick="submitDog()">
+</form>
 </body>
 </html>
