@@ -5,8 +5,12 @@ body {
    color: black;
    font-size: 150%;
    font-weight: bold;
+   text-align: center;
 }
 img {
     height: 25%;
     width: 25%;
+}
+footer {
+    text-align: left;
 }
