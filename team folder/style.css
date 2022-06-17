@@ -1,9 +1,11 @@
 body {
-    background-image: linear-gradient(to bottom right, aliceblue, coral);
+    /* background-image: linear-gradient(to bottom right, aliceblue, coral); */
     font-family: Verdana;
     color: rgb(43, 69, 110);
     background-color: aliceblue;
 }
+
+
 
 header {
     text-align: center;
@@ -16,13 +18,13 @@ header {
 }
 
 nav {
-    display: inline;
     text-align: center;
 }
 
 nav ul li {
     list-style: none;
-    margin: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     
 
 }
