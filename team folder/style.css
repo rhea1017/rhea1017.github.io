@@ -1,5 +1,5 @@
 body {
-    background-image:url();
+    background-image: linear-gradient(to bottom right, aliceblue, coral);
     font-family: Verdana;
     color: rgb(43, 69, 110);
     background-color: aliceblue;
@@ -28,13 +28,13 @@ nav ul li {
 }
 
 a:hover {
-    color: cornflowerblue;
+    color: coral;
 }
 
 a {
     text-decoration: none;
-    color:coral;
-    background-color: rgb(255, 224, 213);
+    color:rgb(74, 153, 223);
+    background-color: rgb(175, 198, 240);
 }
 
 footer {
@@ -45,6 +45,15 @@ footer {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+footer a {
+    color:rgb(43, 69, 110);
+    background-color: rgb(175, 198, 240);
+}
+footer a:hover {
+    color: rgb(189, 79, 67);
+}
+
 /* home page */
 
 .all-about {
@@ -81,3 +90,14 @@ h2 {
 }
 
 
+#submit {
+    background-color: rgb(43, 69, 110);
+    color:rgb(175, 198, 240);
+    font-family: Verdana;
+    border: none;
+}
+
+#submit:hover {
+    color:coral;
+    background-color: rgb(255, 224, 213);
+}

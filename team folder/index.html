@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fish</title>
     <link href="style.css" rel="stylesheet">
-
+    <script>
+        function myFunction() {
+            window.location.href="submit.html";
+        }
+    </script>
    
 </head>
 <body>
@@ -16,7 +20,7 @@
   
     <nav>
         <ul>
-            <li><a href="team.html">Fish 1</a></li>
+            <li><a href="team.html">About Team</a></li>
             <li>Fish 2</li>
             <li></li>
         </ul>
@@ -41,7 +45,7 @@
                 <label><input type="radio" name="visit-reasons">I love fish!</label>
                 <label><input type="radio" name="visit-reasons">I was confused?</label>
                 <label><input type="radio" name="visit-reasons">I didn't want to!</label>
-                <input id="submit" type="submit" value="Submit">
+                <input type="button" onclick="location.href='submit.html'" value="Submit" id="submit">
             </fieldset>
         </form>
     </div>
@@ -52,15 +56,23 @@
     </div>
         <form>
             <fieldset class="home-page">
-                <label>
-                    
-                </label>
+                <label>What's your favorite fish out of these? (select any)</label>
+                <label><input type="checkbox" name="fav-fish">Angle Fish</label>
+                <label><input type="checkbox" name="fav-fish">Pufferfish</label>
+                <label><input type="checkbox" name="fav-fish">Blobfish</label>
+                <label><input type="checkbox" name="fav-fish">Clownfish</label>
+                <label><input type="checkbox" name="fav-fish">Bass</label>
+                <label><input type="checkbox" name="fav-fish">Zebrafish</label>
+                <label><input type="checkbox" name="fav-fish">Any other fish: 
+                <br>
+                <textarea rows="2" cols="20" placeholder="list fish here"></textarea></label>
+                <input type="button" onclick="location.href='submit.html'" value="Submit" id="submit">
             </fieldset>
         </form>
 
         <!--footer for each page?-->
     <footer>
-        <p>created by </p>
+        <p>created by <a href="team.html">Jaden, Regan, and Giovanni</a></p>
     </footer>
 </body>
 </html>
