@@ -1,0 +1,103 @@
+body {
+    background-image: linear-gradient(to bottom right, aliceblue, coral);
+    font-family: Verdana;
+    color: rgb(43, 69, 110);
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(189, 79, 67);
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: cornflowerblue;
+    padding-top: 2.5%;
+}
+
+nav {
+    display: inline;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1.5%;
+    
+
+}
+
+a:hover {
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(74, 153, 223);
+    background-color: rgb(175, 198, 240);
+}
+
+footer {
+    background-color: rgb(175, 198, 240);
+    border-top:5px dotted coral;
+    border-bottom: 5px dotted coral;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer a {
+    color:rgb(43, 69, 110);
+    background-color: rgb(175, 198, 240);
+}
+footer a:hover {
+    color: rgb(189, 79, 67);
+}
+
+/* home page */
+
+.all-about {
+    
+    background-color: rgb(175, 198, 240);
+    border-top:5px dotted coral;
+    border-bottom: 5px dotted coral;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 1% 10%;
+}
+
+.home-page {
+    border: 2px solid rgb(189, 79, 67);
+
+}
+
+fieldset {
+    background-color: cornflowerblue;
+}
+
+label {
+    display: block;
+    padding-bottom: 2px;
+    margin: 1em auto;
+}
+
+h2 {
+    text-align:center;
+}
+
+.fish-picture {
+    text-align: center;
+}
+
+
+#submit {
+    background-color: rgb(43, 69, 110);
+    color:rgb(175, 198, 240);
+    font-family: Verdana;
+    border: none;
+}
+
+#submit:hover {
+    color:coral;
+    background-color: rgb(255, 224, 213);
+}
