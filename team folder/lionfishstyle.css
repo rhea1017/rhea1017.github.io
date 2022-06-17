@@ -3,12 +3,11 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    color: crimson;
+   font-size: 150%;
+   font-weight: bold;
+   text-align: center;
 }
 img {
     height: 25%;
     width: 25%;
-}
-body {
-    font-size: 150%;
-    font-weight: bold;
 }
