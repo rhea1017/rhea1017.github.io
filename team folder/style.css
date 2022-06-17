@@ -16,7 +16,8 @@ header {
 }
 
 nav {
-    display: block;
+    display: inline;
+    text-align: center;
 }
 
 /* home page */
@@ -48,4 +49,8 @@ label {
 
 h2 {
     text-align:center;
+}
+
+.fish-picture {
+    text-align: center;
 }
